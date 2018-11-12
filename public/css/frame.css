@@ -1,0 +1,93 @@
+@font-face {
+  font-family: SharpGroteskItalic;
+  src: url('/fonts/sharpgrotesk-bolditalic20.otf');
+}
+
+@font-face {
+  font-family: SharpGroteskMedium;
+  src: url('/fonts/sharpgrotesk-medium25.otf');
+}
+
+@font-face {
+  font-family: CircularBook;
+  src: url('/fonts/circular-book.otf');
+}
+
+@font-face {
+  font-family: CircularMedium;
+  src: url('/fonts/circular-medium.otf');
+}
+
+body {
+  background-color: #EBFEFE;
+  position: relative;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90vw;
+}
+
+/*------------navbar----------------*/
+.navbar {
+  background-color: transparent;
+}
+
+.fa-bars {
+  color: white;
+  padding-top: 1em;
+  cursor: pointer;
+  font-size: 2.5em;
+  float: right;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+/*-----------------------------------*/
+
+/* ---------------sidebar----------- */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  background-color: #F91F15;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: white;
+  font-family: SharpGroteskMedium;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* ----------------------------------*/
+
+footer {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
