@@ -64,6 +64,7 @@
       font-family: CircularMedium;
       font-size: 1.2em;
       margin-top: 1vh;
+      margin-bottom: 4vh;
       padding-right: 3vw;
       padding-left: 3vw
     }

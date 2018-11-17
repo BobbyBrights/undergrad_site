@@ -86,6 +86,10 @@ body {
 /* ----------------------------------*/
 
 footer {
+  border-top: 1px solid black;
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
+  margin-top: 3vh;
   bottom: 0;
   position: absolute;
   text-align: center;

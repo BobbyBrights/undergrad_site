@@ -19,6 +19,7 @@
     background-color: #394FE6;
     color: white;
     margin-top: -20vh;
+    margin-bottom: 10vh;
   }
 
   .container .jumbotron{
@@ -40,7 +41,7 @@
   .header>p{
     font-family: SharpGroteskItalic;
     font-size: calc(4em + (126 - 56)*((100vw - 300px) / (1600 - 300)));
-    padding-top: 10vh;
+    padding-top: 20vh;
     padding-left: 10vw;
     color: #332B61;
   }
@@ -64,7 +65,7 @@
 @endsection
 @section('content')
   <div class="header">
-    <p>WELCOME <br>2019</p>
+    <p>WELCOME 2019</p>
   </div>
   <div class="container">
     <div class="jumbotron">

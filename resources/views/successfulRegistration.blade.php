@@ -4,7 +4,7 @@
   <style>
     .header {
       background-image: url("{{URL::asset('/pictures/registeredIMG.jpg')}}");
-      height: 97vh;
+      height: 95vh;
       background-position: center center;
       display: block;
       background-repeat: no-repeat;
